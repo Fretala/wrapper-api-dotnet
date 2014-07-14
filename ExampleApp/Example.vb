@@ -18,7 +18,7 @@ Module Example
         Dim CostExample = New With {
             .from = New With {
                 .number = "234",
-                .street = "Rua Rio de Janeiro 653",
+                .street = "Rua Rio de Janeiro",
                 .city = "Belo Horizonte",
                 .state = "Minas Gerais"
             },
