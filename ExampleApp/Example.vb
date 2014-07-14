@@ -11,8 +11,8 @@ Module Example
         Dim Auth As New Dictionary(Of String, String)
         Auth.Add("clientId", "ecommerce")
         Auth.Add("clientSecret", "Q6eH4nxD")
-        Auth.Add("username", "jonathan@uecommerce.com.br")
-        Auth.Add("password", "5X7uT[INU0oC")
+        Auth.Add("username", "YOUR_EMAIL_HERE")
+        Auth.Add("password", "YOUR_PASSWORD_HERE")
         Api = New Fretala.Api("sandbox", Auth)
 
         Dim CostExample = New With {
